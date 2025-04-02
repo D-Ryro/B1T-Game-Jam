@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5625235970610667168}
   - component: {fileID: 5172463799927508142}
   - component: {fileID: 1780459265782116716}
-  - component: {fileID: 6660948269587385460}
   m_Layer: 0
   m_Name: Ghost1
   m_TagString: Untagged
@@ -163,17 +162,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.85, y: 5.86}
   m_EdgeRadius: 0
---- !u!114 &6660948269587385460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3516625453946479084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 955cdc8472a998d4388792fe546ddfbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rb: {fileID: 5172463799927508142}
-  speed: 5
