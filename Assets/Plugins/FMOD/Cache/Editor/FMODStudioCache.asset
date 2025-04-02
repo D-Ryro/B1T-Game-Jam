@@ -22,7 +22,7 @@ MonoBehaviour:
   - {fileID: 2477051137548909824}
   StringsBanks:
   - {fileID: 6128346456580343026}
-  cacheTime: 638790449664476044
+  cacheTime: 638791094684939119
   cacheVersion: 131846
 --- !u!114 &2477051137548909824
 MonoBehaviour:
@@ -39,7 +39,7 @@ MonoBehaviour:
   Path: Assets/FMODProject/B1T Game Jam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638790449664465992
+  lastModified: 638791094684929143
   FileSizes:
   - Name: Desktop
     Value: 52800
@@ -59,7 +59,7 @@ MonoBehaviour:
   Path: Assets/FMODProject/B1T Game Jam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638790449664476044
+  lastModified: 638791094684939119
   FileSizes:
   - Name: Desktop
     Value: 766
