@@ -2,23 +2,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public Rigidbody2D _rb;
-    public float speed = 5f;
-    Vector2 _movement;
+    public float moveSpeed = 5f;
 
-    private void Update()
+    void Update()
     {
-        #region Movement
+        // Get input for X and Z axes (using Vertical for Z movement)
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
 
-        //Keybinds for movement in the editor 
-        _movement.x = Input.GetAxisRaw("Horizontal");
-        _movement.y = Input.GetAxisRaw("Vertical");
+        // Create movement vector (Y is 0 to stay on same plane)
+        Vector3 movement = new Vector3(moveX, 0f, moveZ) * moveSpeed * Time.deltaTime;
 
-        //Movement handle
-        _rb.linearVelocity = _movement * speed;
-
-        #endregion
+        // Apply movement
+        transform.Translate(movement, Space.World);
     }
-
-
 }
