@@ -5,6 +5,8 @@ public class AiMovement : MonoBehaviour
     public Transform _target;
     public float _speed = 5f;
     public float detectionRage = 20f;
+    public float _targetUpdate = 0.5f;
+    private float nextTargetUpdateTime;
 
     private void Start()
     {
@@ -13,11 +15,20 @@ public class AiMovement : MonoBehaviour
 
     private void Update()
     {
-        if(_target == null)
+        if (Time.time >= nextTargetUpdateTime)
         {
             FindNearestTarget();
-            return;
+            nextTargetUpdateTime = Time.time + _targetUpdate;
         }
+
+        if (_target != null)
+        {
+            MoveTowardTarget();
+        }
+    }
+
+    void MoveTowardTarget()
+    { 
 
         Vector3 direction = (_target.position - transform.position).normalized;
 
@@ -43,9 +54,10 @@ public class AiMovement : MonoBehaviour
 
             }
         }
-
-        _target = closestObject;
-
+        if (closestObject != null && (_target == null) || closestDistance < Vector3.Distance(transform.position, _target.position))
+        {
+            _target = closestObject;
+        }
     }
 
 
