@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collision
   - Kuker
+  - Example
   layers:
   - Default
   - TransparentFX
