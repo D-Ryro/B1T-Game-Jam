@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6049fe3ee5e312747972c6b5f77a042a, type: 3}
+  m_Name: KukerGajda
+  m_EditorClassIdentifier: 
+  displayName: 
+  prefab: {fileID: 3998614532047292470, guid: d4a9ac9f9bc39f04fbfe031cc4fb6e32, type: 3}
+  sprite: {fileID: 0}
+  health: 100
+  speed: 5
+  instrument: {fileID: 0}
