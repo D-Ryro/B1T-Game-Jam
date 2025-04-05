@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{64e38b27-14d3-4879-aef2-b4a3c89839da}">
+		<property name="assetPath">
+			<value>Ambience, Forest, Birds, Cuckoo, Close Chirps, Light Wind In Trees, Leaf Forest 02 SND0566.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4230416666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{802221a5-81ce-411e-8d43-6edb7420c99d}</destination>
+		</relationship>
+	</object>
+</objects>

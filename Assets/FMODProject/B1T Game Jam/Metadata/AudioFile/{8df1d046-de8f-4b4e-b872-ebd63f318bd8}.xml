@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8df1d046-de8f-4b4e-b872-ebd63f318bd8}">
+		<property name="assetPath">
+			<value>Cartoon, Animal, Bird, Flute, Bird Caller SND45558 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.82346875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{802221a5-81ce-411e-8d43-6edb7420c99d}</destination>
+		</relationship>
+	</object>
+</objects>
