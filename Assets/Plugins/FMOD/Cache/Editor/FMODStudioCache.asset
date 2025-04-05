@@ -101,13 +101,13 @@ MonoBehaviour:
     Data4: 1531033011
   Banks:
   - {fileID: 2477051137548909824}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 72000
 --- !u!114 &-6052784213339067805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   - {fileID: 2477051137548909824}
   StringsBanks:
   - {fileID: 6128346456580343026}
-  cacheTime: 638794491008880882
+  cacheTime: 638794499777433237
   cacheVersion: 131846
 --- !u!114 &1805997154003268493
 MonoBehaviour:
@@ -208,10 +208,10 @@ MonoBehaviour:
   Path: Assets/FMODProject/B1T Game Jam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638794491008869283
+  lastModified: 638794499777412446
   FileSizes:
   - Name: Desktop
-    Value: 1831552
+    Value: 2932352
   Exists: 1
 --- !u!114 &3172865871205246149
 MonoBehaviour:
@@ -282,7 +282,7 @@ MonoBehaviour:
   Path: Assets/FMODProject/B1T Game Jam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638794491008880882
+  lastModified: 638794499777433237
   FileSizes:
   - Name: Desktop
     Value: 1480

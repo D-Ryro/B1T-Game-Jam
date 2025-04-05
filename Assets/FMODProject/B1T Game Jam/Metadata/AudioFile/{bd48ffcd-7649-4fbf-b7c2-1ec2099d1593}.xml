@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{bd48ffcd-7649-4fbf-b7c2-1ec2099d1593}">
+		<property name="assetPath">
+			<value>bw_mus_menu_loop_140bpm_v1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>68.571437500000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{802221a5-81ce-411e-8d43-6edb7420c99d}</destination>
+		</relationship>
+	</object>
+</objects>

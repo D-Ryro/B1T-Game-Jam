@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{581d57f5-a3fe-4e16-9a48-4bcd45b68e93}">
+		<property name="assetPath">
+			<value>bw_mus_menu_intro_140bpm_v1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.4285833333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{802221a5-81ce-411e-8d43-6edb7420c99d}</destination>
+		</relationship>
+	</object>
+</objects>
